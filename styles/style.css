@@ -33,7 +33,7 @@ body {
 }
 
 .header__link-active {
-  border-bottom: none; 
+  border-bottom: none;
   padding-bottom: 0;
 }
 
@@ -58,11 +58,11 @@ body {
   line-height: 24px;
 }
 
-.address__link { 
-  border-bottom: 1px solid rgb(0, 0, 0); 
+.address__link {
+  border-bottom: 1px solid rgb(0, 0, 0);
   padding-bottom: 1px;
   color: rgb(0, 0, 0);
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .cover {
@@ -112,7 +112,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-top: 106px;
-  padding: 0px 50px 50px;
+  padding: 0 50px 50px;
 }
 
 .cover__description-text {
@@ -199,7 +199,6 @@ body {
   justify-content: space-between;
   text-decoration: none;
   text-decoration-color: rgb(255, 255, 255);
-  
 }
 
 .card__title {
@@ -209,10 +208,10 @@ body {
   font-weight: 700;
   font-size: 22px;
   line-height: 1.2;
-  text-decoration: underline; 
-  text-decoration-color: rgba(255, 255, 255, 0.8); 
-  text-decoration-skip-ink: none; 
-  text-underline-offset: 3px; 
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.8);
+  text-decoration-skip-ink: none;
+  text-underline-offset: 3px;
   text-transform: uppercase;
 }
 
@@ -315,7 +314,7 @@ body {
 }
 
 .footer__menu-link_active {
-  border-bottom: none; 
+  border-bottom: none;
   padding-bottom: 0;
 }
 
