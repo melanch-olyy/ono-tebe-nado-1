@@ -24,12 +24,12 @@ body {
 }
 
 .header__link {
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 1px;
   color: rgb(0, 0, 0);
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  border-bottom: 1px solid currentColor;
-  padding-bottom: 1px;
 }
 
 .header__link-active {
@@ -58,11 +58,11 @@ body {
   line-height: 24px;
 }
 
-.address__link {
+.address__link { 
+  border-bottom: 1px solid rgb(0, 0, 0); 
+  padding-bottom: 1px;
   color: rgb(0, 0, 0);
   text-decoration: none; 
-  border-bottom: 1px solid rgb(0, 0, 0); 
-  padding-bottom: 1px; 
 }
 
 .cover {
@@ -210,9 +210,9 @@ body {
   font-size: 22px;
   line-height: 1.2;
   text-decoration: underline; 
+  text-decoration-color: rgba(255, 255, 255, 0.8); 
   text-decoration-skip-ink: none; 
   text-underline-offset: 3px; 
-  text-decoration-color: rgba(255, 255, 255, 0.8); 
   text-transform: uppercase;
 }
 
@@ -228,12 +228,12 @@ body {
 .lots__look-more-link {
   margin-top: 30px;
   margin-left: 40px;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 1px;
   color: rgb(0, 0, 0);
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
-  border-bottom: 1px solid currentColor;
-  padding-bottom: 1px;
 }
 
 .about {
@@ -300,18 +300,18 @@ body {
 }
 
 .footer__menu-list {
-  list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .footer__menu-link {
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 0.5px;
   color: rgb(0, 0, 0);
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  border-bottom: 1px solid currentColor;
-  padding-bottom: 0.5px;
 }
 
 .footer__menu-link_active {
@@ -322,8 +322,8 @@ body {
 .footer__social-list {
   display: flex;
   gap: 48px;
-  padding: 0;
   margin: 0;
+  padding: 0;
   list-style: none;
 }
 
